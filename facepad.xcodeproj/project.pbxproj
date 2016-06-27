@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		123AC3603B044B81B556C4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740CDFF7FA944F66B1714894 /* Foundation.framework */; };
+		1B17E8431D1DA2D8008E717C /* FISUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8421D1DA2D8008E717C /* FISUser.m */; };
+		1B17E8461D1DA2F2008E717C /* FISFeedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8451D1DA2F2008E717C /* FISFeedPost.m */; };
+		1B17E8491D1DA308008E717C /* FISTextPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8481D1DA308008E717C /* FISTextPost.m */; };
+		1B17E84C1D1DA32F008E717C /* FISImagePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E84B1D1DA32F008E717C /* FISImagePost.m */; };
+		1B17E8521D1DA4C8008E717C /* FISNewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8511D1DA4C8008E717C /* FISNewsFeedTableViewController.m */; };
+		1B17E8551D1DBB51008E717C /* FISTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8541D1DBB51008E717C /* FISTableViewController.m */; };
+		1B17E8581D2152A2008E717C /* FISUserProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8571D2152A2008E717C /* FISUserProfileTableViewCell.m */; };
+		1B17E85B1D2152B1008E717C /* FISCoverImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E85A1D2152B1008E717C /* FISCoverImageTableViewCell.m */; };
+		1B17E85E1D2152C2008E717C /* FISImagePostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E85D1D2152C2008E717C /* FISImagePostTableViewCell.m */; };
+		1B17E8611D2152D1008E717C /* FISTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17E8601D2152D1008E717C /* FISTextTableViewCell.m */; };
 		4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */; };
-		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D5549351BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549331BCC0A75001E3D77 /* FISNewsFeedTableViewControllerSpec.m */; };
+		4D5549361BCC0A75001E3D77 /* FISUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549341BCC0A75001E3D77 /* FISUserSpec.m */; };
+		4D5549381BCC0BBF001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549371BCC0BBF001E3D77 /* Launch Screen.storyboard */; };
 		86B12BE4DC976B9D8136F1CD /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4F8F6C70C07E1998ABE051 /* libPods-unit_tests.a */; };
 		D80D149D19F09B720018489E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D149C19F09B720018489E /* Main.storyboard */; };
 		D80D14B119F0AC500018489E /* joe-burgess.png in Resources */ = {isa = PBXBuildFile; fileRef = D80D14B019F0AC500018489E /* joe-burgess.png */; };
@@ -33,6 +43,26 @@
 
 /* Begin PBXFileReference section */
 		047361924796455E8BB2675E /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B17E8411D1DA2D8008E717C /* FISUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUser.h; sourceTree = "<group>"; };
+		1B17E8421D1DA2D8008E717C /* FISUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUser.m; sourceTree = "<group>"; };
+		1B17E8441D1DA2F2008E717C /* FISFeedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISFeedPost.h; sourceTree = "<group>"; };
+		1B17E8451D1DA2F2008E717C /* FISFeedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFeedPost.m; sourceTree = "<group>"; };
+		1B17E8471D1DA308008E717C /* FISTextPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTextPost.h; sourceTree = "<group>"; };
+		1B17E8481D1DA308008E717C /* FISTextPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextPost.m; sourceTree = "<group>"; };
+		1B17E84A1D1DA32F008E717C /* FISImagePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImagePost.h; sourceTree = "<group>"; };
+		1B17E84B1D1DA32F008E717C /* FISImagePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImagePost.m; sourceTree = "<group>"; };
+		1B17E8501D1DA4C8008E717C /* FISNewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISNewsFeedTableViewController.h; sourceTree = "<group>"; };
+		1B17E8511D1DA4C8008E717C /* FISNewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISNewsFeedTableViewController.m; sourceTree = "<group>"; };
+		1B17E8531D1DBB51008E717C /* FISTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTableViewController.h; sourceTree = "<group>"; };
+		1B17E8541D1DBB51008E717C /* FISTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTableViewController.m; sourceTree = "<group>"; };
+		1B17E8561D2152A2008E717C /* FISUserProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISUserProfileTableViewCell.h; sourceTree = "<group>"; };
+		1B17E8571D2152A2008E717C /* FISUserProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISUserProfileTableViewCell.m; sourceTree = "<group>"; };
+		1B17E8591D2152B1008E717C /* FISCoverImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCoverImageTableViewCell.h; sourceTree = "<group>"; };
+		1B17E85A1D2152B1008E717C /* FISCoverImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCoverImageTableViewCell.m; sourceTree = "<group>"; };
+		1B17E85C1D2152C2008E717C /* FISImagePostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISImagePostTableViewCell.h; sourceTree = "<group>"; };
+		1B17E85D1D2152C2008E717C /* FISImagePostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISImagePostTableViewCell.m; sourceTree = "<group>"; };
+		1B17E85F1D2152D1008E717C /* FISTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTextTableViewCell.h; sourceTree = "<group>"; };
+		1B17E8601D2152D1008E717C /* FISTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTextTableViewCell.m; sourceTree = "<group>"; };
 		1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		38670AEC748C4D8F923E6887 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		387DAA87D28D4A2EBFCEB483 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,8 +151,28 @@
 			children = (
 				F5DA605375F54E3D9C8CC12A /* FISAppDelegate.h */,
 				1F8E7D20AB93443AAE831377 /* FISAppDelegate.m */,
-				FF2E31828EF54A4794F04731 /* Resources */,
+				1B17E8411D1DA2D8008E717C /* FISUser.h */,
+				1B17E8421D1DA2D8008E717C /* FISUser.m */,
+				1B17E8441D1DA2F2008E717C /* FISFeedPost.h */,
+				1B17E8451D1DA2F2008E717C /* FISFeedPost.m */,
+				1B17E8471D1DA308008E717C /* FISTextPost.h */,
+				1B17E8481D1DA308008E717C /* FISTextPost.m */,
+				1B17E84A1D1DA32F008E717C /* FISImagePost.h */,
+				1B17E84B1D1DA32F008E717C /* FISImagePost.m */,
+				1B17E8531D1DBB51008E717C /* FISTableViewController.h */,
+				1B17E8541D1DBB51008E717C /* FISTableViewController.m */,
+				1B17E8501D1DA4C8008E717C /* FISNewsFeedTableViewController.h */,
+				1B17E8511D1DA4C8008E717C /* FISNewsFeedTableViewController.m */,
+				1B17E8561D2152A2008E717C /* FISUserProfileTableViewCell.h */,
+				1B17E8571D2152A2008E717C /* FISUserProfileTableViewCell.m */,
+				1B17E8591D2152B1008E717C /* FISCoverImageTableViewCell.h */,
+				1B17E85A1D2152B1008E717C /* FISCoverImageTableViewCell.m */,
+				1B17E85C1D2152C2008E717C /* FISImagePostTableViewCell.h */,
+				1B17E85D1D2152C2008E717C /* FISImagePostTableViewCell.m */,
+				1B17E85F1D2152D1008E717C /* FISTextTableViewCell.h */,
+				1B17E8601D2152D1008E717C /* FISTextTableViewCell.m */,
 				D80D149C19F09B720018489E /* Main.storyboard */,
+				FF2E31828EF54A4794F04731 /* Resources */,
 			);
 			path = facepad;
 			sourceTree = "<group>";
@@ -338,8 +388,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B17E8521D1DA4C8008E717C /* FISNewsFeedTableViewController.m in Sources */,
+				1B17E8611D2152D1008E717C /* FISTextTableViewCell.m in Sources */,
+				1B17E8461D1DA2F2008E717C /* FISFeedPost.m in Sources */,
+				1B17E85B1D2152B1008E717C /* FISCoverImageTableViewCell.m in Sources */,
+				1B17E85E1D2152C2008E717C /* FISImagePostTableViewCell.m in Sources */,
 				4BF6F18D544D4B43AB53CEC1 /* FISAppDelegate.m in Sources */,
+				1B17E8581D2152A2008E717C /* FISUserProfileTableViewCell.m in Sources */,
+				1B17E84C1D1DA32F008E717C /* FISImagePost.m in Sources */,
+				1B17E8551D1DBB51008E717C /* FISTableViewController.m in Sources */,
 				F2DA577D1EC348D78215A834 /* main.m in Sources */,
+				1B17E8491D1DA308008E717C /* FISTextPost.m in Sources */,
+				1B17E8431D1DA2D8008E717C /* FISUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
